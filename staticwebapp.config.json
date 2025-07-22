@@ -1,12 +1,6 @@
 {
   "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": [
-      "/about.html",
-      "/services.html",
-      "/contact.html",
-      "/symbol.html"
-    ]
+    "rewrite": "/index.html"
   },
   "mimeTypes": {
     ".json": "application/json",
