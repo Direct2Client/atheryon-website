@@ -18,6 +18,19 @@ swa start . --port 4280
 python3 -m http.server 8000
 ```
 
+## Troubleshooting & Network Information
+
+For IP addresses, diagnostic commands, and troubleshooting information, see the [Network Information & Troubleshooting](ARCHITECTURE.md#network-information--troubleshooting) section in the architecture documentation.
+
+**Quick diagnostic commands:**
+```bash
+# Check site health
+curl -I https://thankful-meadow-06676a21e.1.azurestaticapps.net/
+
+# DNS resolution
+nslookup thankful-meadow-06676a21e.1.azurestaticapps.net
+```
+
 ## Deployment
 
 The site automatically deploys to Azure Static Web Apps when changes are pushed to the `main` branch via GitHub Actions CI/CD pipeline.

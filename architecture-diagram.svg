@@ -96,7 +96,7 @@
   <line x1="600" y1="320" x2="460" y2="280" class="arrow"/>
 
   <!-- Key Features Box -->
-  <rect x="50" y="450" width="700" height="120" rx="10" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  <rect x="50" y="450" width="700" height="140" rx="10" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
   <text x="70" y="475" class="subtitle">Key Features:</text>
   
   <text x="70" y="495" class="label">• Zero Build Process: Static HTML/CSS/JS files served directly</text>
@@ -104,6 +104,12 @@
   <text x="70" y="525" class="label">• Global Performance: Azure CDN with edge locations worldwide</text>
   <text x="70" y="540" class="label">• Security: Automatic HTTPS, OIDC authentication, secure deployment</text>
   <text x="70" y="555" class="label">• Cost Effective: Serverless hosting with pay-as-you-go pricing</text>
+  <text x="70" y="570" class="label">• Network Diagnostics: IP ranges, DNS resolution, SSL monitoring</text>
+
+  <!-- Network Information Box -->
+  <rect x="400" y="400" width="350" height="40" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="575" y="420" text-anchor="middle" class="subtitle" fill="#1976d2">🌐 Network & Diagnostics</text>
+  <text x="410" y="435" class="flow-text">URL: thankful-meadow-06676a21e.1.azurestaticapps.net | Region: Australia East</text>
 
   <!-- File Structure -->
   <rect x="650" y="80" width="120" height="100" rx="8" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
